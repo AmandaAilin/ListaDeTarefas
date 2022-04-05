@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 :root {
---primary-color: rgb(83, 67, 33);
---primary-color-darker: rgb(9, 48, 56);
+--primary-color: white;
 }
 
 * {
@@ -12,26 +10,33 @@
 body {
     margin: 0;
     padding: 0;
-    background: var(--primary-color);
-    font-family: Open Sans , sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.6em;
     line-height: 1.5em;
+    background-image: url(https://images.unsplash.com/photo-1513185041617-8ab03f83d6c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
 }
 
 .container {
     max-width: 700px;
-    margin: 150px auto;
-    background: #fff;
+    margin: 80px auto;
+    background: rgba(66, 53, 35, 0.5);
     padding: 20px;
     border-radius: 10px;
 }
 
 .container h1{
-    margin-left: 180px;
+    margin-left: 220px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    color:var(--primary-color);
 }
 
 p {
-    margin-left: 205px;
+    margin-left: 190px;
 }
 
 p button.bnt-tarefa{
@@ -39,10 +44,19 @@ p button.bnt-tarefa{
 }
 
 p input.input-tarefa {
-    padding: 4px 8px;
+    padding: 5px;
+    margin-bottom: 15px;
 }
 
 button.apagar {
     margin: 0 10px;
     padding: 2px 6px;
+}
+
+ul li {
+    color: var(--primary-color);
+}
+
+li {
+    margin: 4.5px;
 }
