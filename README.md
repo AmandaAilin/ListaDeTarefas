@@ -4,7 +4,7 @@
 
 ## Projeto
 
-TBR livros é uma pagina para  organizar suas leituras, você pode apagar uma vez que tenha concluido.
+Uma pagina para organizar suas leituras, você pode apagar uma vez que tenha concluido.
 
 ## Tecnologias utilizadas
 
