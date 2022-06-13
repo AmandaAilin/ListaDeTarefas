@@ -1,54 +1,55 @@
 :root {
---primary-color: white;
+    --primary-color: white;
 }
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    outline: 0;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lora', serif;
     font-size: 1.6em;
-    line-height: 1.5em;
-    background-image: url(https://images.unsplash.com/photo-1513185041617-8ab03f83d6c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: top center;
+    background: white;
+    height: 100vh;
 }
 
-.container {
+h1 {
+    color: rgb(25, 20, 44);
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+/*.container {
     max-width: 700px;
     margin: 80px auto;
-    background: rgba(66, 53, 35, 0.5);
+    
     padding: 20px;
     border-radius: 10px;
 }
 
-.container h1{
-    margin-left: 220px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: normal;
-    color:var(--primary-color);
-}
 
-p {
+/*p {
     margin-left: 190px;
+}*/
+
+
+/*input.input-tarefa, .bnt-tarefa {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    background: rgba(25, 20, 44, 0.508);
 }
 
-p button.bnt-tarefa{
+/*input button .bnt-tarefa {
     padding: 2px 6px;
 }
 
-p input.input-tarefa {
-    padding: 5px;
-    margin-bottom: 15px;
-}
-
-button.apagar {
+button .apagar {
     margin: 0 10px;
     padding: 2px 6px;
 }
@@ -59,4 +60,64 @@ ul li {
 
 li {
     margin: 4.5px;
+}*/
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
+
+input {
+    border-radius: 0.5rem;
+    font-size: 14px;
+    padding: 0.5rem;
+}
+
+
+.btn-tarefa {
+    border-radius: 4rem;
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    cursor: pointer;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+th {
+    height: 40px;
+    background-color: #786b7e;
+    color: white;
+    margin: 5rem;
+    border-bottom: 1px solid rgba(66, 54, 65, 0.466);
+    text-decoration: none;
+}
+
+table th,
+td {
+
+    border: 1px solid black;
+}
+
+tr:hover {
+    background-color: #965f5f
+}
+
+.tarefas {
+    align-items: center;
+    justify-content: center;
+    margin: 5rem;
+    border: none;
+}
+
+
+button {
+    border-radius: 10px;
+    font-size: 15px;
+}
+
