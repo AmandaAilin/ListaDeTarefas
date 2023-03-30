@@ -11,7 +11,7 @@
 
 
 
-View: https://lista-de-leituras.vercel.app/
+View: https://lista-de-tarefas-one-delta.vercel.app/
 ## Projeto
 
 Este é um projeto para organizar as tarefas, tem funções como excluir tarefa onde mostra uma tela para confirmação, tem o botão de editar onde leva para outra janela onde pode editar su tarefa e salvala. 
