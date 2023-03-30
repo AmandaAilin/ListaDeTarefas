@@ -1,10 +1,10 @@
-# Lista de leituras
+# Lista de Tarefas
 
 
 
 ## Projeto
 
-Uma pagina para organizar suas leituras, você pode apagar uma vez que tenha concluido.
+Uma pagina para organizar suas tarefas, você tem a opção de excluir e editar.
 
 ## Tecnologias utilizadas
 
