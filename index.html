@@ -3,36 +3,45 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>Leituras desejadas</title>
+    <title>Tarefas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <header>
-        <h1>Leituras</h1>
-    </header>
-    <main>
-        <div class="form">
-            <input type="texto" id="autor" class="input-tarefa" placeholder="Autor" autocomplete="off">
-            <button class="btn-tarefa">+</button>
+    <div class="conteudo">
+        <div class="topo">
+            <input type="text" id="inputNovaTarefa" 
+            placeholder="Adicione uma nova tarefa">
+            <button id="btnAddTarefa">
+                <i class="fa fa-plus"></i>
+            </button>
         </div>
-        <table class="tarefas">
-            <thead>
-                <th>Nome do livro</th>
-                <th>Ações</th>
-            </thead>
-            <tbody></tbody>
-        </table>
-    </main>
+        <ul id="listaTarefas">
+        </ul>
+    </div>
 
-    <script src="./js/scrips.js"></script>
+    <div id="janelaEdicao">
+        <button id="janelaEdicaoBtnFechar">
+            <i class="fa fa-remove fa-2x"></i>
+        </button>
+        <h2 id="idTarefaEdicao">#1021</h2>
+        <hr>
+        <form>
+            <div class="frm-linha">
+                <label for="nome">Nome</label>
+                <input type="text" id="inputTarefaNomeEdicao">
+            </div>
+            <div class="frm-linha">
+                <button id="btnAtualizarTarefa">Salvar</button>
+            </div>
+        </form>
+    </div>
+    <div id="janelaEdicaoFundo"></div>
+
+    <script src="./js/scrips.js"></script>    
+
 </body>
 
 </html>
